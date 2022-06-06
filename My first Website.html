@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Raphyatskincare.css">
+ 
+</head>
+<style>
+    .first-heading{
+        background-color: rgb(15, 37, 9);
+        padding-bottom: 20px;
+    }
+    .Raphy-logo{
+        width: 70px;
+        height: 70px;
+        margin-left: 50px;
+        padding-top: 15px;
+    }
+    .Raphy-motto{
+        text-align: center;
+        color:yellow;
+    }
+    h1{
+        font-size: 50px;
+        color:white;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .first-paragraph{
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    .second-heading{
+     height: 40px;
+     background-color: rgba(0, 128, 0, 0.39);
+     padding-top: 10px;
+    }
+    .left-section{
+    padding-left: 10px;
+    font-weight: bold;
+    padding-top: 5px;
+    }
+    .right-section{
+        margin-left: 30px; 
+        display: flex; 
+        flex-shrink: 0;
+    }
+    .search-icon{
+        width: 30px;
+        height:30px;
+        cursor: pointer;
+        border-radius: 30px;
+    }
+    .cart-icon{
+        width: 30px;
+        height:30px;
+        cursor: pointer;
+        margin-left: 5px;
+        border-radius: 30px;
+    }
+    .chat-icon{
+        width: 30px;
+        height:30px;
+        cursor: pointer;
+        margin-left: 5px;
+        border-radius: 30px;
+    }
+    .About-us{
+        cursor: pointer;
+        margin-left: 5px;
+    }
+    .contact-us{
+        cursor: pointer;
+    }
+    .third-heading-grid{
+        display: flex;
+        height: 300px;
+        margin-top: 30px
+    }
+    .fourth-heading-grid{
+        display: flex;
+        height: 300px;
+        margin-top: 30px
+    }
+    .activated-charcoal{
+      margin-left: 15px
+    }
+    .mini-kit{
+        padding-right: 8px;
+    }
+    .charcoal-image{
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+    }
+    .minikit-image{
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+    }
+    .glowkit-image{
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+    }
+    .cleanser-image{
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+    }
+    .hot-chocolate{
+        margin-left: 15px   
+    }
+    .chocolate-image{
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+    }
+    .bodyscrub-image{
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+    }
+    .sponge-image{
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+    }
+    .mint-image{
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+    }
+    .charcoal-button{
+        border-radius: 15px;
+        height: 30px;
+        width: 100px ;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .charcoal-price{
+        margin-left: 20px;
+        font-weight: bold;
+    }
+    .minikit-button{
+        border-radius: 15px;
+        height: 30px;
+        width: 100px ;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+    .minikit-price{
+        margin-left: 50px;
+        font-weight: bold;
+    }
+    .glowkit-button{
+        border-radius: 15px;
+        height: 30px;
+        width: 100px ;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-left: 70px;
+        cursor: pointer;
+    }
+    .glowkit-price{
+        margin-left: 70px;
+        font-weight: bold;
+    }
+    .cleanser-button{
+        border-radius: 15px;
+        height: 30px;
+        width: 100px ;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-left: 70px;
+        cursor: pointer;
+    }
+    .cleanser-price{
+        margin-left: 70px;
+        font-weight: bold;
+    }
+    .chocolate-button{
+        border-radius: 15px;
+        height: 30px;
+        width: 100px ;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .chocolate-price{
+        margin-left: 20px;
+        font-weight: bold;
+    }
+    .lemon-button{
+        border-radius: 15px;
+        height: 30px;
+        width: 100px ;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-left: 70px;
+        cursor: pointer;
+    }
+    .lemon-price{
+        margin-left: 70px;
+        font-weight: bold;
+    }
+    .Konjac-button{
+        border-radius: 15px;
+        height: 30px;
+        width: 100px ;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-left: 70px;
+        cursor: pointer;
+    }
+    .konjac-price{
+        margin-left: 70px;
+        font-weight: bold;
+    }
+    .mint-button{
+        border-radius: 15px;
+        height: 30px;
+        width: 100px ;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-left: 70px;
+        cursor: pointer;
+    }
+    .mint-price{
+        margin-left: 70px;
+        font-weight: bold;
+    }
+    </style>
+<body>
+<div class="first-heading">
+<h1>
+    Welcome to RAPHYATSKINCARE Official Website
+    <img class="Raphy-logo" src="Raphy.jpg">
+</h1>
+</div>
+<div class="second-heading">
+<div class="heading-column-grid" style="display:grid; grid-template-columns: 1200px 1200px ">
+<div class="left-section" style="display:grid; grid-template-columns:80px 80px 80px">
+    <div class="About-us">About Us</div> 
+    <div class="contact-us">Contact Us</div>
+</div> 
+<div class="right-section" style="display:flex; grid-template-columns:50px 50px 50px">
+    <img class="search-icon" src="Images/Capture.PNG">
+    <img class="cart-icon" src="Images/Add to Cart.PNG">
+    <img class="chat-icon" src="Images/Chat with us.PNG">
+</div>
+</div>
+</div>
+<div class="third-heading-grid" style="display:grid; grid-template-columns: 350px 350px 350px 300px;">
+ <div class="activated-charcoal">
+    <img class="charcoal-image" src="Raphyimages/Activated Charcoal.jpg">
+ <p class=" charcoal-price">
+ Price: N12,000
+ </p>
+ <button class="charcoal-button">
+     Add to cart
+</button>
+ </div>
+ <div class="mini-kit">
+    <img class="minikit-image" src="Raphyimages/Mini kit.jpg">
+    <P class="minikit-price">
+        Price: N12,000
+    </P>
+    <button class="minikit-button">
+        Add to cart
+   </button>
+ </div>
+ <div class="glow-kit">
+    <img class="glowkit-image" src="Raphyimages/The Glow kit.jpg">
+    <P class="glowkit-price">
+        Price: N12,000
+    </P>
+    <button class="glowkit-button">
+        Add to cart
+   </button>
+ </div>
+<div class="face-cleanser">
+    <img class="cleanser-image" src="Raphyimages/Face cleanser.jpg">
+    <P class="cleanser-price">
+        Price: N12,000
+    </P>
+    <button class="cleanser-button">
+        Add to cart
+   </button>
+</div>
+<div class="fourth-heading-grid" style="display:grid; grid-template-columns: 350px 350px 350px 300px;">
+    <div class="hot-chocolate">
+        <img class="chocolate-image" src="Raphyimages/Hot chocolate lotion.jpg">
+     <p class="chocolate-price">
+     Price: N12,000
+     </p>
+     <button class="chocolate-button">
+        Add to cart
+     </button>
+     </div>
+     <div class="lemon-bodyscrub">
+        <img class="bodyscrub-image" src="Raphyimages/Lemon body scrub.jpg">
+        <P class="lemon-price">
+            Price: N12,000
+        </P>
+        <button class="lemon-button">
+            Add to cart
+       </button>
+     </div>
+     <div class="konjac-sponge">
+        <img class="sponge-image" src="Raphyimages/Konjac sponge.jpg">
+        <P class="konjac-price">
+            Price: N12,000
+        </P>
+        <button class="Konjac-button">
+            Add to cart
+       </button>
+     </div>
+    <div class="mint-soap">
+        <img class="mint-image" src="Raphyimages/Mint soap.jpg">
+        <P class="mint-price">
+            Price: N12,000
+        </P>
+        <button class="mint-button">
+            Add to cart
+       </button>
+    </div>
+</div>
+</body>
